@@ -22,10 +22,21 @@ Component plugin is APEX page item. It provides simple user interface which enab
 <p align="center">
 <img src="https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManager.PNG?v=1" alt="Component" width="400px">
 </p>
-
+The plugin has four parts: user interface, core, settings and javascript interface.
 <p align="center">
 <img src="http://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FMschema2.png" alt="Component" width="400px">
 </p>
+
+Settings is initial information about component: 
+* Provider - provider item id;
+* Collection - collection name (used for save details about uploaded files);
+* Multiple - allows the user upload more that one file;
+* Max Files - limit of files to upload, "Max Files" option is available only in the "Multiple files" mode;
+* Show Drop Zone - turn on/off drag and drop feature;
+* Button Label - browse button text;
+* Transform Path - PL/SQL Function Body returning a VARCHAR2 which change can change file name during uploading. Use ":path" substitution string to get original file name;
+* Accept - represents "accept" attribute from an input type file;
+* Max Size - limit of size for files ("-1" - no limit) in bytes.
 
 ## What is provider?
 Provider plugin is a bridge between the component plugin and a storage (third-party services or applications such as Amazon S3, Dropbox, Apex application etc.). It consists of metadata, core and javascript interface.
