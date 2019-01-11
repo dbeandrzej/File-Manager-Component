@@ -1,0 +1,33 @@
+{
+  "name" : "File Manager Component",
+  "version" : "1.0.0-beta",
+  "description" : "",
+  "keywords" : ["apexutil", "aws", "s3", "file", "upload", "apex", "oracle", "item", "plugin"],
+  "homepage" : "",
+  "bugs" : {
+    "url" : "",
+    "email" : "office@apexutil.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Andrei Radzetski",
+    "email" : "a.radzetski@apexutil.com",
+    "url" : "https://andrei-radzetski.github.io"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : ""
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["18.1.0"],
+      "plugin" : {
+        "internalName" : "COM.APEXUTIL.FM.COMPONENT",
+        "type" : "item",
+        "demo" : "https://www.apexutil.com/apex/f?p=700:200",
+        "previewImage" : "https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManager.PNG"
+      }
+    }
+  }
+}
