@@ -20,7 +20,7 @@ The set consists two parts:
 ## What is component?
 Component plugin is APEX page item. It provides simple user interface which enables the user to locate and upload a file from a local file system.
 <p align="center">
-<img src="https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManager.PNG" alt="Component" width="400px">
+<img src="https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManager.PNG?v=1" alt="Component" width="400px">
 </p>
 
 <p align="center">
