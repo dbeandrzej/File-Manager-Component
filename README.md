@@ -1,4 +1,5 @@
 # File Manager Component  (Apex Plugin)
+This is a simple file input that give you file browser capabilities like never before - eg. put your files on Amazon S3 cloud. To use it you need 2 elements - This File Manager Component and second plugin - "File Manager Provider". The Provider acts as plugin for specific 3rd party file server support. At the moment we have only Amazon S3 Cloud. But we will add more in time! Stay tuned!
 
 ## What is File Manager?
 File Manager is the family of plugins for file management for APEX application. It gives ability to upload / download / delete files from 3rd party providers (eg. Amazon S3 /others in progress/). 
