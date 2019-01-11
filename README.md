@@ -1,5 +1,11 @@
 # File Manager Component  (Oracle APEX Plugin)
-This is a simple file input that give you file browser capabilities like never before - eg. put your files on Amazon S3 cloud. To use it you need 2 elements - This File Manager Component and second plugin - "File Manager Provider". The Provider acts as plugin for specific 3rd party file server support. At the moment we have only Amazon S3 Cloud. But we will add more in time! Stay tuned!
+This is a simple file input that give you file browser capabilities like never before - eg. put your files on Amazon S3 cloud. 
+Main features: 
+* does not need database to upload files; 
+* does not need Oracle Wallet; 
+* high performance, dependend only on yours connection speed.
+
+To use it you need 2 elements - This File Manager Component and second plugin - "File Manager Provider". The Provider acts as plugin for specific 3rd party file server support. At the moment we have only Amazon S3 Cloud. But we will add more in time! Stay tuned!
 ### Available providers
 * [File Manager Provider AWS3](#).
 
